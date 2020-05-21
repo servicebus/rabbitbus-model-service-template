@@ -1,6 +1,5 @@
 # @servicebus/rabbitbus-model-service-template
 [![Build Status](https://travis-ci.org/servicebus/rabbitbus-model-service-template.svg?branch=master)](https://travis-ci.org/servicebus/rabbitbus-model-service-template)
-[![codecov](https://codecov.io/gh/servicebus/rabbitbus-model-service-template/branch/master/graph/badge.svg)](https://codecov.io/gh/servicebus/rabbitbus-model-service-template)
 
 This is an example of a "model" microservice using `@servicebus/rabbitbus`, because model services are the most complex, and most necessary :)
 
