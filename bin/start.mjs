@@ -3,7 +3,7 @@ import path from 'path'
 import log from 'llog'
 import errortrap from 'errortrap'
 import registerHandlers from '@servicebus/register-handlers'
-import servicebus from 'servicebus-bus-common'
+import servicebus from '@servicebus/rabbitbus-common'
 import { config } from '../config.mjs'
 import mongoClient from 'sourced-repo-mongo/mongo.js'
 
@@ -31,7 +31,7 @@ export const start = async (onStart) => {
   }
   log.info('connected to mongo')
 
-  // `servicebus-bus-common.makeBus` creates a new instance of servicebus.bus
+  // `@servicebus/rabbitbus-common.makeBus` creates a new instance of servicebus.bus
   // using commonly used servicebus middleware
   //
   // Servicebus is kinda lika an event emitter for your whole system.

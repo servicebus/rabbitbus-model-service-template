@@ -1,5 +1,5 @@
 import debug from 'debug'
-import { makeBus } from 'servicebus-bus-common'
+import { makeBus } from '@servicebus/rabbitbus-common'
 
 const config = {
   prefetch: 10,
