@@ -1,7 +1,7 @@
 import path from 'path'
 
 import log from 'llog'
-import errortrap from 'errortrap'
+import errortrap from '@servicebus/errortrap'
 import registerHandlers from '@servicebus/register-handlers'
 import servicebus from '@servicebus/rabbitbus-common'
 import { config } from '../config.mjs'

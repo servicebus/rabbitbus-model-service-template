@@ -17,11 +17,11 @@
     "prepush": "make ci"
   },
   "dependencies": {
+    "@servicebus/errortrap": "0.0.7",
     "@servicebus/rabbitbus-common": "1.0.2",
     "@servicebus/register-handlers": "1.0.3",
     "bluebird": "3.7.2",
     "cconfig": "2.0.2",
-    "errortrap": "1.0.2",
     "llog": "0.2.0",
     "pino": "6.2.1",
     "sourced": "2.0.6",
